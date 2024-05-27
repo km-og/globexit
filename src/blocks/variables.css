@@ -1,0 +1,9 @@
+:root {
+  --main-color: #262c40;
+  --main-bg-color: #fff;
+  --border-color: #d4defe;
+  --accent-color: #432eab;
+  --text-color: #8189a3;
+  /* --overlay-color: rgba(188, 195, 208, 0.5); */
+  --overlay-color: rgba(0, 0, 0, 0.005);
+}

@@ -1,0 +1,64 @@
+.users__card {
+  max-width: 357px;
+  width: 100%;
+  max-height: 314px;
+  height: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+.users__name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+}
+
+.users__contacts {
+  margin: 24px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 24px;
+}
+
+.users__icon {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.users__icon_type_phone::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("../../icons/phone.svg") no-repeat center;
+}
+
+.users__icon_type_email::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("../../icons/email.svg") no-repeat center;
+}
+
+.users__text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42;
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 375px) {
+  .users__card {
+    width: 87.8%;
+  }
+}
